@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project P3</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli|Playfair+Display" rel="stylesheet">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.45.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.45.0/mapbox-gl.css' rel='stylesheet' />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="section-1">
+            <div class="content">
+                <h1 class="section-1-head">
+                    Understanding the influences of Christianity in the villages of Katkahi parish
+                </h1>
+                <p class="section-1-text">
+                    The tribals of Jharkhand have been influenced by a lot of factors in terms of culture, social and 
+                    political nature. One of those factors was the adoption Christianity that began around a hundred years ago and is speculated to have affected the community both positively and negatively.
+                </p>
+            </div>
+            <div class="image">
+                <img src="ill.jpg" alt="">
+            </div>    
+        </div>
+        <div class="section-2">
+            <div class="section-2-text">
+                <p class="normal-text">Christianity started around a hundred years ago in the Chota-Nagpur plateau region of which the parish of Katkahi is a part of and comes under the district of Gumla, Jharkhand. The area is occupied by the tribal population and Gumla is reported to have the highest proportion of Schedule Tribes (68.4%) in the State. 
+
+                    Over the years, several factors have influenced the tribal community culturally, socially and politically. Christianity has been one of those factors and is said to have brought education and development in tribal societies. The missionaries were also known to help the tribals with the legal help required during the period of exploitation after the land acquisition act of 1894.
+                    On the other side, adoption of a new religion has also lead to discrimination against the tribal population. Cases of social mobilization and legal cases whereby attempts have been made to deschedule Christian tribes from scheduled tribe status have come up. 
+                    
+                    
+                    
+                    
+                    </p>
+                <p class="normal-text">
+                    Looking through the lens of data allows us to review the influence of Christianity in the region. The trends in adoption of Christianity in different villages and combining it with other relevant data, particularly the availability of amenities such as education and medical facilities, can through light upon the speculations put forth when it comes to positive or negative influences of Christianity in the tribal areas of Jharkhand.
+                    </p>
+            </div>
+            <!-- </div> -->
+            <div id="map"></div>
+                    <script>
+                            mapboxgl.accessToken = 'pk.eyJ1IjoicGFsbGF2aWVra2EiLCJhIjoiY2o3MDd4ODJvMDVmNjJxbXEyb21wYTBvbiJ9.KWQh1_Yu_Me7etyPuhqhqg';
+                            var map = new mapboxgl.Map({
+                                container: 'map', // container id
+                                style: 'mapbox://styles/pallaviekka/cjicxu38o0u762rkzvc88x3ct', // stylesheet location
+                                center: [84.563553, 
+                            22.965484], // starting position [lng, lat]
+                                zoom: 8.5 // starting zoom
+                            });
+                            </script>
+            
+        </div> <!-- section-2 ends -->
+        <div class="section-3">
+
+            <div class="subsection">
+                <h2 class="subsection-head">THE PARISH OF KATKAHI</h2>
+                <div class="text-container">
+                    <div>
+                <p class="normal-text">Katkahi is a parish under the Roman Catholic Archdiocese of Ranchi accommodating around 57 villages (but only 27 villages were identified in the census 2011). The parish church is about 135Kms from the capital, Ranchi. The church was fully built in 1895 but the first record of baptism can be found as early as 1872. </p>
+                </div><div>
+                <p class="normal-text"> The church maintains the baptism, communion, confirmation and marriage records of the parishioners in physical registers which are hand written. The records holds the name, date of the sacrament and are written in ancestral order.</p>
+             </div>   
+            </div>
+            <img src="register.jpg" class="big-img" alt>
+        </div>
+            <div class="subsection">
+                <h2 class="subsection-head">BAPTISMS IN VILLAGES</h2>
+                <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~sarthakveggalam/2.embed"></iframe>
+                <div class="text-container">    
+                <p class="normal-text">Over a course of approximately 100 years, about 24362 people were baptized in the parish of Katkahi. Two specific time periods can be seen wherein the number of baptism increases. One happens approximately between 1925-1930 and the second happens between 1950-1955. 
+                </p>
+                <p class="normal-text">
+                        The first peak happens for the villages which have a comparatively larger population and the second peak occurs for the smaller population. It was the smaller villages wherein the initial conversions took place.
+                </p>
+                </div>
+            </div>
+            <div class="subsection">
+                <h2 class="subsection-head">MISSIONARY ACTIVITIES</h2>
+                <img src="" alt="">
+                <div class="text-container">
+                    <div>
+                <p class="normal-text">Missionaries were active over the years not only through evangelical work but also provided temporal advantages to the converts. During the period after the Land acquisition act of 1894, the tribals were undergoing misery and exploitation due to the unlimited demands for begari (wage-less labor) by landlords. </p>
+            </div><div>
+                <p class="normal-text">It was observed that the cases that were brought to the court by a Christian Uraon, helped and sometimes even financed by the missionaries, were more successful than those brought by pagans. It could be seen that a lot of activities preceded the peaks for about 20 years.</p>
+            </div>
+            </div>
+            <iframe width="100%" height="800" frameborder="0" scrolling="no" src="//plot.ly/~pallavimonicaekka/1.embed"></iframe>
+            </div>
+        </div>  <!-- section-3 ends -->
+
+        <div class="section-4">
+            <div class="subsection">
+                <h2 class="subsection-head">AVAILABILITY OF AMENITIES : SCHOOLS</h2>
+                <div class="text-container">
+                <div>
+                    <p class="normal-text">According to some studies, Christianity has also brought education and development in tribal societies of Jharkhand. The census records a total of 123 schools in 27 villages. Though it seems like the number of schools are proportional to  </p>
+                </div><div>
+                    <p class="normal-text">the population of the villages, it is interesting to note that the village with the most number of baptisms i.e. Chichchwani does not have a single school according to the census data of 2011.</p>
+                </div>
+                </div>
+                <img src="s1.png" class="big-img" alt="">
+            </div>
+            <div class="subsection">
+                <h2 class="subsection-head">ESTABLISHMENT OF SCHOOLS</h2>
+            <div class="text-container">
+                <div>
+                <p class="normal-text">The peaks for the number of baptisms over the years and the establishment year of schools in the district of Gumla seem to coincide. The most number of schools, though, was during the time when the 86 constitutional amendment act was implemented. The website Jharkhand Academic Council lists only 33 schools.</p>
+                </div>
+                <div>
+                    <p class="normal-text"> Hence, the schools were discovered from a public platform i.e. neighbourhoodinfo.com. If the data from the public platform is to be trusted, it raises questions as to why information about these schools is not available on the government website?</p>
+                </div>
+            </div>
+                <img src="s2.png" class="big-img" alt="">
+            </div>
+            <div class="subsection">
+                <h2 class="subsection-head">AVAILABILITY OF AMENITIES : MEDICAL FACILITIES</h2>
+            <div class="text-container">
+                <div>
+                <p class="normal-text">One would expect the number of medical facilities to be proportional to the total population, but it isn’t so and neither is it proportional to the number of baptisms in the villages. In fact, the village with the most number of medical facilities falls in the </p>
+            </div><div>
+                <p class="normal-text">middle of the scale both for population and also the number of baptisms. Katkahi, which is the village where the church is situated, has the most number of medical facility available.</p>
+            </div>
+            </div>
+                <img src="m.png" class="small-img" alt="">
+            </div>
+        </div>
+
+        <div class="footer">
+            <p class="footer-text">
+                    Christianity has been among the tribals of Jharkhand for about over a hundred years from now and has been affecting the society in several forms. The first records could be found as early as 1872, but the 
+                    most number of baptisms happened between 19281936, with initial adopters of Christianity found in relatively larger villages.  Political agendas would always act as a driving force for the course of 
+                    actions in any state but in a secular country, one must not be discriminated against on the grounds of religion. The events tell us how, after the Land Acquisition Act, the rise in baptism was witnessed 
+                    and as the activities by the missionaries increase, the number of baptisms also increase. It could also be seen that at the peak, not many activities could be found. As far as availability of 
+                    amenities is concerned, one interesting point was that the village with the most number of baptism didn’t have any school. There also seemed to be a correlation between the number of baptisms and the number 
+                    of the schools established in that year. The co-relation between medical facilities and number of baptism could not be witnessed. Though no causality can be established due to the insufficient data in hand, 
+                    some interesting insights lead to curiosity about the subject. Instances such as the villages not found and the schools not counted in the census raise important questions about the access of such villages to the 
+                    government officials or just shear impartiality. </p>
+                    <img src="church.jpg" class="medium-img">
+                    
+        </div>
+        
+    </div>  <!-- wrapper ends -->
+    
+</body>
+</html>
